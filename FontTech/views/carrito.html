@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="/css/styles-carrito.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+    <title>Compras</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="Logo"></div>
+        <img src="../images/Logo.png" alt="" width="25%" />
+
+        <div class="BarraBusqueda">
+            <input type="text" name="" placeholder="Buscar..." />
+            <a href="">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <div>
+            <div class="login">
+                <a href="/login"><i class="fas fa-sign-in-alt"> Iniciar sesión</i></a>
+            </div>
+
+            <div class="registro">
+                <a href="/registro"><i class="fas fa-user"> Crea tu cuenta</i></a>
+            </div>
+        </div>
+        <div class="icono-carrito">
+            <a href="/carrito"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <main class="container">
+        <div class="producto-carrito">
+            <div>
+                <h5>Producto / Descripción</h5>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos itaque vel, quaerat ratione quod similique quo
+                    doloremque possimus, quis tempore nisi accusamus, tenetur autem
+                    ipsum quos ut inventore animi rem?
+                </p>
+                <br />
+                <h5>Precio $</h5>
+                <br />
+                <span>
+                    <label>Cantidad</label>
+                    <select name="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </span>
+                <div class="total"><label>TOTAL</label>$ 50000,00</div>
+            </div>
+            <div class="imagen">
+                <img src="../images/asus/asus1.jpg" />
+            </div>
+        </div>
+        <div class="seguir-comprando">
+            <button class="boton" type="submit">Eliminar producto</button>
+    
+            <!-- <input type="button" value="Eliminar Producto" /> -->
+           <!--  <input type="button" value="Seguir Comprando" /> -->
+           <button class="boton" type="submit">Seguir Comprando</button>
+        </div>
+        <div class="facturar">
+            <div class="envio">
+                <label>Envio</label>
+                <input type="number" value="CodigoPostal" placeholder="Código Postal" />
+            </div>
+            <div class="retiro">
+                <label>Retiro en Sucursal</label>
+                <input type="checkbox" value="Retiro en Sucursal" />
+            </div>
+            <div class="cupon">
+                <label>Cupon de descuento</label>
+                <input type="number" value="cupon" />
+            </div>
+            <div class="total">
+                <label>TOTAL A PAGAR</label>
+                <input type="number" value="total" />
+            </div>
+        </div>
+        <div class="finalizar">
+            <!-- <label>TOTAL</label> -->
+           <!--  <input type="button" value="FINALIZAR COMPRA" /> -->
+           <button class="boton" type="submit">Finalizar Compra</button>
+        </div>
+        <div class="medios-pagos"></div>
+    </main>
+</body>
+
+</html>
