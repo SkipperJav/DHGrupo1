@@ -62,7 +62,7 @@ body{
 
 .title{
 	
-    font-size: 40px;
+    font-size: 30px;
     color: #6a6a6a;
     margin-top: 50px;
     font-weight: 100;
@@ -118,7 +118,7 @@ body{
 
     text-decoration: none;
     color: black;
-	font-size: 25px;
+	font-size: 15px;
 	border: 3px solid #51D9DD;
 	border-radius: 5px;
 	margin-left: 5px;
