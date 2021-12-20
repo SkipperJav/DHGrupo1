@@ -104,10 +104,12 @@ button{
     height: 70px;
 }
 
+
 @media (min-width:1024px){
     .contenedor{
         width: 100%;
-      
-        
+    }
+    .fa-bars{
+        display: none;
     }
 }
