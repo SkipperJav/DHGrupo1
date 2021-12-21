@@ -1,5 +1,6 @@
  @import url(menu.css);
  @import url(slider-tarjetas.css);
+ @import url(popup.css);
 
 *{
     margin: 0;
@@ -95,7 +96,7 @@ footer input{
 footer .direccion, .newsletter{
     margin: 15px;
 }
-button{
+footer button{
     font-size: 30px;
     color: rgb(68, 65, 65);
     background: #51D9DD;
