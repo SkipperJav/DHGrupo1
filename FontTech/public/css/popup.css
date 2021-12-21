@@ -9,6 +9,14 @@
     border-radius: 50px;
 }
 
+.mail, .password {
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+}
+
 
 .container-all{
     width: 100%;
@@ -35,7 +43,6 @@
     visibility: visible;
 }
 
-
 .popup{
     width: 100%;
     max-width: 800px;
@@ -51,9 +58,6 @@
     transition: all 600ms;
 }
 
-
-
-
 .container-text{
     width: 60%;
     padding: 50px;
@@ -64,9 +68,6 @@
 .container-text h1{
     font-size: 30px;
 }
-
-
-
 
 .btn-close-popup{
     width: 50px;
