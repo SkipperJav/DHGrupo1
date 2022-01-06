@@ -1,15 +1,16 @@
  @import url(menu.css);
  @import url(slider-tarjetas.css);
  @import url(popup.css);
+ @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&family=Roboto:ital,wght@0,300;0,400;1,300&family=Viga&display=swap');
 
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: white;
-    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Viga', sans-serif;
     padding: 5px;
 }
 header{
@@ -17,7 +18,7 @@ header{
     width:100%;
     height: auto;
     background: white;
-    /* background: rgb(31, 29, 29);  */
+    
     color: #fff;
     position:fixed; 
     top: 0;
@@ -48,10 +49,13 @@ header{
     
 }
 
-h1{
-    margin-top: 5px;
-    float: left;
+.homeTitle {
+    text-align: center;
+    font-size: 15px;
+    
+ 
 }
+
 header .contenedor{
     display: table;
 }
@@ -84,7 +88,7 @@ footer .contenedor{
     justify-content: center;
     align-items: center;
     font-size: 28px;
-    font-family:'Readex Pro', sans-serif;
+    font-family: "viga", sans-serif;
 }
 footer input{
     width: 100%;
@@ -95,15 +99,25 @@ footer input{
 
 footer .direccion, .newsletter{
     margin: 15px;
+    
 }
 footer button{
-    font-size: 30px;
+   /*  font-size: 30px;
     color: rgb(68, 65, 65);
     background: #51D9DD;
     border-radius: 10px;
     border-color: #51D9DD;
     width: 200px;
     height: 70px;
+ */
+    
+    text-decoration: none;
+    color: black;
+	font-size: 15px;
+	background: #51D9DD;
+    border: 10px solid #51D9DD;
+	border-radius: 5px;
+	margin-left: 5px;
 }
 
 
@@ -114,8 +128,10 @@ footer button{
     .fa-bars{
         display: none;
     }
-    .title{
-	        font-size: 40px;
+    .homeTitle{
+	        font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
     }
     .container .card a {
 
